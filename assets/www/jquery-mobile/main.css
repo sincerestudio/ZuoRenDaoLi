@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ui-bar-x {
+	border-top: 2px solid #EA4444;
+	border-bottom: 2px solid #A52429;
+	background: #BD0001 /*{a-bar-background-color}*/;
+	color: #ffffff /*{a-bar-color}*/;
+	font-weight: bold;
+	text-shadow: 0 /*{a-bar-shadow-x}*/ -1px /*{a-bar-shadow-y}*/ rgba(0, 0, 0, .5) /*{a-bar-shadow-color}*/;
+	box-shadow: 0 1px rgba(165, 46, 31, .5);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D10001 ), to(#930000 )); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #D10001, #930000 ); /* Chrome 10+, Saf5.1+ */
+}
+.ui-btn-active {
+	border: 1px solid #000;
+	background: #3d3d3d;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 -1px 1px #000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#5a5a5a));
+	background-image: -webkit-linear-gradient(#333, #5a5a5a);
+	background-image: -moz-linear-gradient(#333, #5a5a5a);
+	background-image: -ms-linear-gradient(#333, #5a5a5a);
+	background-image: -o-linear-gradient(#333, #5a5a5a);
+	background-image: linear-gradient(#333, #5a5a5a)
+}
+
+#header {
+	position:absolute;top:0; left:0;z-index:2;
+}
+
+#content {
+	position:absolute;z-index:1;top:45px; bottom:50px; left:0; width:100%;overflow:auto; padding:0; background-color:#aaa;
+}
+
+#scroller {
+	padding:10px;background-color:#fff;-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+#footer {
+	position:absolute;bottom:0; left:0; z-index:2;	
+}
