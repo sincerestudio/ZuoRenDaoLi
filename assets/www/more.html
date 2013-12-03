@@ -116,35 +116,40 @@ document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 2
     <a href="#" data-role="button" data-icon="refresh" data-iconpos="notext" data-theme="b" data-inline="true" class="ui-btn-right">Refresh</a> </div>
   <div data-role="content" id="content">
   	<div id="scroller">
+    <!--内容开始-->
 <ul data-role="listview" data-inset="true" data-divider-theme="d">
     <li data-role="list-divider">账户</li>
-    <li><a href="#">未登录</a></li>
+    <li><a href="#">未登录</a><span class="ui-li-thumb-x"><img src="missing.png"/></span></li>
+</ul>
+<ul data-role="listview" data-inset="true" data-divider-theme="d">
     <li data-role="list-divider">我的操作</li>
     <li><a href="#">发贴（图片/段子）</a></li>
     <li><a href="#">我的贴子</a></li>
     <li><a href="#">我的评论</a></li>
     <li><a href="#">我的消息</a></li>
     <li><a href="#">我的收藏</a></li>
+</ul>
+<ul data-role="listview" data-inset="true" data-divider-theme="d">
     <li data-role="list-divider">设置</li>
-    <li><a href="#">字体大小</a></li>
-    <li><a href="#">非WiFi不显示头像</a></li>
-    <li><a href="#">夜间模式</a></li>
+    <li data-icon="false"><a href="#">非WiFi不显示头像</a></li>
+    <li data-icon="false"><a href="#">夜间模式</a></li>
     <li><a href="#">清除缓存</a></li>
     <li><a href="#">当前版本1.0.0</a></li>
     <li><a href="#">推荐给朋友</a></li>
     <li><a href="#">意见反馈</a></li>
     <li><a href="#">帮助</a></li>
     <li><a href="#">关于</a></li>
-    
 </ul>
+
+<!--内容结束-->
     </div>
   </div>
   <div data-role="footer" id="footer">
     <div data-role="navbar" data-grid="b">
       <ul>        
-       	<li><a href="index.html" rel="external" id="tupian" data-icon="home">图片</a></li>
-        <li><a href="duanzi.html" rel="external" id="duanzi" data-icon="star">段子</a></li>
-        <li><a href="#" rel="external" id="more" data-icon="info" class="ui-btn-active">更多</a></li>
+       	<li><a href="index.html" rel="external" id="tupian" data-transition="pop" data-icon="home">图片</a></li>
+        <li><a href="duanzi.html" rel="external" id="duanzi" data-transition="pop" data-icon="star">段子</a></li>
+        <li><a href="#" rel="external" id="more" data-icon="info" data-transition="pop" class="ui-btn-active">更多</a></li>
       </ul>
     </div>
   </div>
