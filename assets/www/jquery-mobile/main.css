@@ -35,7 +35,8 @@
 }
 
 #scroller {
-	padding:10px;background-color:#fff;-webkit-tap-highlight-color:rgba(0,0,0,0);
+	padding:10px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
 #footer {
@@ -68,4 +69,135 @@
 .x-switch {
 	width:10em;
 	height:1em;
+}
+
+.col1 {
+	margin: 0;
+	position: relative;
+}
+
+.col1 .block {
+background-color: #fff;
+clear: both;
+padding: 18px 20px;
+}
+
+.col1 .bs2 {
+box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.col1 .mb15 {
+margin-bottom: 15px;
+}
+
+.col1 .author {
+font-size: 14px;
+vertical-align: middle;
+line-height: 100%;
+margin: 0 0 17px;
+}
+
+.col1 img {
+height: 30px;
+width: 30px;
+vertical-align: middle;
+padding: 0 10px 0 0;
+}
+
+.col1 a {
+color: #9b8878;
+text-decoration: none;
+}
+
+
+.col1 a:visited {
+color: #9b8878;
+text-decoration: none;
+}
+
+.ui-body-c .ui-link {
+color: #9b8878;
+text-decoration: none;
+font-weight:100;
+}
+
+.ui-body-c .ui-link:visited {
+color: #9b8878;
+text-decoration: none;
+}
+
+.col1 .content {
+word-break: break-all;
+line-height: 160%;
+}
+
+.col1 .bar {
+margin: 15px 0 0 0;
+height: 30px;
+}
+
+.col1 ol, ul, li {
+list-style: none;
+}
+
+
+.col1 ul {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+.col1 .bar ul li {
+float: left;
+}
+
+.col1 .bar ul li a {
+display: block;
+height: 28px;
+line-height: 30px;
+text-indent: 36px;
+width: 80px;
+border-radius: 3px;
+border: 1px solid #dfd5cb;
+color: #9e8c7b;
+}
+
+.col1 .bar .up a {
+margin: 0 10px 0 0;
+background: #fff url("images/web_icon.png") no-repeat -0px -720px;
+}
+
+.col1 .bar .up a {
+background-image: -webkit-image-set(url("images/web_icon.png") 1x,url("images/web_icon_hd.png") 2x);	
+}
+
+.col1 .bar .down a {
+margin: 0 228px 0 0;
+background: #fff url("images/web_icon.png") no-repeat -80px -720px;
+}
+
+.col1 .bar .down a {
+background-image: -webkit-image-set(url("images/web_icon.png") 1x,url("images/web_icon_hd.png") 2x);	
+}
+
+
+.col1 .bar .comment a {
+margin: 0 10px 0 0;
+background: #fff url("images/web_icon.png") no-repeat 0 -780px;
+}
+
+.col1 .bar .comment a {
+background-image: -webkit-image-set(url("images/web_icon.png") 1x,url("images/web_icon_hd.png") 2x);	
+}
+
+
+.bar .share a {
+background: #fff url("images/web_icon.png") no-repeat -80px -780px;
+}
+.col1 .bar .share a {
+background-image: -webkit-image-set(url("images/web_icon.png") 1x,url("images/web_icon_hd.png") 2x);	
 }
